@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { JSX } from 'react';
-import { ThumbnailOptions } from '@/components/ThumbnailOptions';
-import { ThumbnailResult } from '@/components/ThumbnailResult';
-import { ThumbnailForm } from '@/components/ThumbnailForm';
-import { useThumbnail } from './hooks/useThumbnail';
+import { JSX } from "react";
+import { ThumbnailOptions } from "@/components/ThumbnailOptions";
+import { ThumbnailResult } from "@/components/ThumbnailResult";
+import { ThumbnailForm } from "@/components/ThumbnailForm";
+import { useThumbnail } from "./hooks/useThumbnail";
 
 /**
  * HomePage is the main component that renders the thumbnail generator interface.
@@ -22,7 +22,8 @@ export default function HomePage(): JSX.Element {
         <header>
           <h1 className="text-4xl font-extrabold">Thumbnail Generator</h1>
           <p className="text-muted-foreground mt-2">
-            Enter a website URL and customize the thumbnail's size, quality, and format.
+            Enter a website URL and customize the size, quality, and format of
+            the thumbnail.
           </p>
         </header>
 
